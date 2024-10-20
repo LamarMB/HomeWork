@@ -1,6 +1,6 @@
-example =  'Топинамбур'
-print(example [0])
-print(example [-1])
-print(example [5:])
-print(example [::-1])
-print(example [1::2])
+name = input('Введите ваше имя: ')
+corrent_ears = 2024
+date_of_bersd = int(input('в каком году вы родились?: '))
+age= corrent_ears - date_of_bersd
+print('здравствуйте' , name)
+print('в этом году вам' , age, 'года')
